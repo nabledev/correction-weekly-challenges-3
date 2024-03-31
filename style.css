@@ -1,0 +1,99 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Container{
+    display: flex;
+    flex-direction: row;
+}
+
+#formulaireConnexion{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#formulaireConnexion input{
+    padding: 8px 0px 8px 0px;
+    margin-bottom: 20px;
+}
+
+.buttonForm{
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 12px;
+    padding: 12px 0px 12px 0px;
+    font-size: 20px;
+}
+
+.buttonForm:hover{
+    background-color: rgb(66, 66, 66);
+    cursor: pointer;
+}
+
+#forgotPassword{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#inputPassword{
+    border: none;
+    background-color: #EFEFEF;
+}
+
+#containterForm{
+    margin-left: 10%;
+    margin-top: 200px;
+    width: 500px;
+}
+
+#textContainer{
+    width: 340px;
+    margin-bottom: 60px;
+}
+
+#formulaireConnexion label{
+    margin-bottom: 12px;
+
+}
+
+
+@media screen and (max-width: 1168px) {
+
+    #containerImg{
+        display: none;
+    }
+
+    #containterForm{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+  
+    }
+    #textContainer{
+        width: 340px;
+        margin-bottom: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #formulaireConnexion{
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      
+
+    }
+    
+
+  }
